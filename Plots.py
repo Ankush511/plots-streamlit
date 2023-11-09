@@ -20,7 +20,7 @@ st.bar_chart(chart_data)
 
 st.header('2. Data Visualization using matplotlib and seaborn')
 st.subheader('2.1 Loading the DataFrame')
-df = pd.read_csv('/Users/Ankush/Desktop/Data Science/Streamlit/iris.csv')
+df = pd.read_csv('iris.csv')
 st.dataframe(df)
 
 st.subheader('2.2 Distribution Plot Using matplotlib')
